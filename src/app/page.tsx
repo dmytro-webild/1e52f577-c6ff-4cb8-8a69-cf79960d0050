@@ -95,8 +95,8 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", brand: "Course", name: "Myofunctional Foundation", price: "$150", rating: 5, reviewCount: "24", imageSrc: "http://img.b2bpic.net/free-photo/medic-equipment-desk_23-2148519752.jpg" },
-        { id: "p2", brand: "Course", name: "Better Sleep Blueprint", price: "$195", rating: 5, reviewCount: "18", imageSrc: "http://img.b2bpic.net/free-vector/creative-hand-drawn-tree-yoga-gym-our-services-flyer_742173-1347.jpg" },
+        { id: "p1", brand: "Course", name: "Master Your Myofunctional Foundation", price: "$150", rating: 5, reviewCount: "24", imageSrc: "http://img.b2bpic.net/free-photo/medic-equipment-desk_23-2148519752.jpg" },
+        { id: "p2", brand: "Course", name: "Transform Your Sleep Quality", price: "$195", rating: 5, reviewCount: "18", imageSrc: "http://img.b2bpic.net/free-vector/creative-hand-drawn-tree-yoga-gym-our-services-flyer_742173-1347.jpg" },
         { id: "p3", brand: "Course", name: "Jaw Tension Relief", price: "$120", rating: 4, reviewCount: "32", imageSrc: "http://img.b2bpic.net/free-photo/staistics-business-strategy-planning-research-digital-tablet-concept_53876-26413.jpg" },
       ]}
       title="Start Your Transformation"
