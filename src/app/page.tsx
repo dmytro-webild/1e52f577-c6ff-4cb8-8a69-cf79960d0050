@@ -105,9 +105,9 @@ export default function LandingPage() {
       title="Comprehensive Therapy & Care"
       description="From bite alignment to sleep optimization, my sessions are tailored to your specific facial structure and habits."
       accordionItems={[
-        { id: "1", title: "Sleep Enhancement Therapy", content: "Improve your sleep quality through optimized breathing patterns and orofacial function." },
-        { id: "2", title: "Bite Alignment Correction", content: "Restore proper jaw positioning and eliminate tension through specialized myofunctional techniques." },
-        { id: "3", title: "Breathing Optimization", content: "Learn techniques that transform how you breathe, supporting overall wellness and vitality." },
+        { id: "1", title: "Wake Up Refreshed", content: "Improve your sleep quality through optimized breathing patterns and orofacial function." },
+        { id: "2", title: "Restore Jaw Comfort", content: "Restore proper jaw positioning and eliminate tension through specialized myofunctional techniques." },
+        { id: "3", title: "Breathe With Ease", content: "Learn techniques that transform how you breathe, supporting overall wellness and vitality." },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/full-shot-woman-sitting-with-closed-eyes_23-2148897916.jpg"
       mediaAnimation="slide-up"
