@@ -49,7 +49,7 @@ export default function LandingPage() {
       background={{
         variant: "radial-gradient"}}
       title="Transform Your Bite • Breathe Better • Sleep Deeper"
-      description="I'm Olivia Lallouz, a specialized orofacial myologist dedicated to optimizing your bite alignment, enhancing breathing patterns, and improving sleep quality through targeted facial structure correction."
+      description="Optimize your bite, breathing, and sleep through personalized myofunctional therapy designed to reclaim your facial wellness and vitality."
       leftCarouselItems={[
         { imageSrc: "http://img.b2bpic.net/free-photo/ai-generated-modern-styled-entryway_23-2150692369.jpg", imageAlt: "Wellness Studio" },
         { imageSrc: "http://img.b2bpic.net/free-photo/smiling-woman-typing-laptop_23-2148304954.jpg", imageAlt: "Wellness Studio" },
