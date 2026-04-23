@@ -59,7 +59,7 @@ export default function LandingPage() {
         { imageSrc: "http://img.b2bpic.net/free-photo/serene-minimalist-spa-pool-meditation-space_23-2151935126.jpg", imageAlt: "Wellness Studio" },
       ]}
       rightCarouselItems={[
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png", imageAlt: "Olivia Lallouz" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png?_wi=1", imageAlt: "Olivia Lallouz" },
         { imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-working-as-nurse_23-2151061663.jpg", imageAlt: "Olivia Lallouz" },
         { imageSrc: "http://img.b2bpic.net/free-photo/specialist-leading-meeting-with-medical-team-discuss-treatment-service_482257-106971.jpg", imageAlt: "Olivia Lallouz" },
         { imageSrc: "http://img.b2bpic.net/free-photo/blonde-pretty-doctor-sitting-her-place-office_259150-60614.jpg", imageAlt: "Olivia Lallouz" },
@@ -155,11 +155,11 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       testimonials={[
-        { id: "1", name: "Matthew L.", role: "Client", testimonial: "Olivia has been the light I have been looking for... I have been doing myofunctional therapy with Olivia and it has been nothing short of the most ideal experience.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png" },
-        { id: "2", name: "Max M.", role: "Client", testimonial: "Olivia and her team have been amazing. From the start, they've been incredibly kind, professional, and genuinely invested in helping.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png" },
-        { id: "3", name: "Kyle S.", role: "Client", testimonial: "Treatment with Olivia has truly been a game changer for me. I came in for orofacial myofunctional therapy and from the very first visit, I felt comfortable.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png" },
-        { id: "4", name: "Sarah J.", role: "Client", testimonial: "I have already noticed significant improvements in how my tongue rests and how I breathe. It is truly life-changing.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png" },
-        { id: "5", name: "Elena R.", role: "Client", testimonial: "So professional, thorough, and supportive throughout the entire process. Highly recommend!", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png" },
+        { id: "1", name: "Matthew L.", role: "Client", testimonial: "Olivia has been the light I have been looking for... I have been doing myofunctional therapy with Olivia and it has been nothing short of the most ideal experience.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png?_wi=2" },
+        { id: "2", name: "Max M.", role: "Client", testimonial: "Olivia and her team have been amazing. From the start, they've been incredibly kind, professional, and genuinely invested in helping.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png?_wi=3" },
+        { id: "3", name: "Kyle S.", role: "Client", testimonial: "Treatment with Olivia has truly been a game changer for me. I came in for orofacial myofunctional therapy and from the very first visit, I felt comfortable.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png?_wi=4" },
+        { id: "4", name: "Sarah J.", role: "Client", testimonial: "I have already noticed significant improvements in how my tongue rests and how I breathe. It is truly life-changing.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png?_wi=5" },
+        { id: "5", name: "Elena R.", role: "Client", testimonial: "So professional, thorough, and supportive throughout the entire process. Highly recommend!", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png?_wi=6" },
       ]}
       title="Client Love"
       description="Read about the transformations experienced by my clients."
