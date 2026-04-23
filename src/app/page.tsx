@@ -33,7 +33,7 @@ export default function LandingPage() {
       <NavbarLayoutFloatingInline
       navItems={[
         { name: "Home", id: "#hero" },
-        { name: "About", id: "#about" },
+        { name: "Bio", id: "#about" },
         { name: "Services", id: "#features" },
         { name: "Courses", id: "#products" },
         { name: "Reviews", id: "#testimonials" },
@@ -59,14 +59,18 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <AboutMetric
       useInvertedBackground={false}
-      title="Meet Your Specialist: Olivia Lallouz"
+      title="Olivia Lallouz, MS, CCC-SLP | Qualified Orofacial Myologist | PhD Candidate"
       metrics={[
-        { label: "Bite Alignment", value: "Optimized", icon: Sparkles },
-        { label: "Breathing", value: "Optimized", icon: Wind },
-        { label: "Sleep Quality", value: "Improved", icon: Moon },
+        { label: "Professional Status", value: "Certified SLP & QOM", icon: Sparkles },
+        { label: "Focus", value: "Neurorehabilitation", icon: Wind },
+        { label: "Approach", value: "Evidence-Based", icon: Moon },
       ]}
       metricsAnimation="blur-reveal"
     />
+    <div className="max-w-3xl mx-auto py-12 px-6 text-foreground/80 leading-relaxed">
+       <p className="mb-6">I am a certified speech-language pathologist and qualified orofacial myologist (QOM) currently pursuing a PhD in Biomedical Sciences, with a research focus on neurological disorders, particularly the assessment and progression in conditions such as ALS. My work bridges clinical practice and translational research, with the goal of advancing early detection and intervention strategies for neurodegenerative disease.</p>
+       <p className="mb-6">With extensive clinical experience across hospitals, outpatient clinics, and interdisciplinary care teams, I specialize in the diagnosis and treatment of speech, language, swallowing, and cognitive impairments resulting from neurological injury or disease. I bring a strong foundation in evidence-based care, and am skilled in integrating clinical assessment with objective diagnostic tools to support comprehensive, individualized treatment planning. My passion lies at the intersection of neurorehabilitation, orofacial myology, and research innovation. I am dedicated to improving quality of life through both direct patient care and research that informs and elevates clinical standards.</p>
+    </div>
   </div>
 
   <div id="features" data-section="features">
