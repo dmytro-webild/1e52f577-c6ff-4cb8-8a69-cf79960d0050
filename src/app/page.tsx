@@ -173,7 +173,7 @@ export default function LandingPage() {
       faqs={[
         { id: "q1", title: "What is orofacial myology?", content: "It is the study and treatment of oral and facial muscles as they relate to speech, dentition, chewing, swallowing, and overall health." },
         { id: "q2", title: "How do online sessions work?", content: "I offer personalized video consultations to guide you through specific exercises and therapy protocols from the comfort of your home." },
-        { id: "q3", title: "Who benefits from this therapy?", content: "Anyone dealing with bite issues, jaw tension, mouth breathing, or sleep disturbances can benefit significantly." },
+        { id: "q3", title: "Who benefits from this therapy?", content: "You can expect lasting relief from chronic jaw tension and improved sleep quality; anyone dealing with bite issues, jaw tension, mouth breathing, or sleep disturbances can benefit significantly." },
       ]}
       title="Common Questions"
       description="Find answers to help you start your journey."
