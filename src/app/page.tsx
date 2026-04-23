@@ -40,7 +40,7 @@ export default function LandingPage() {
         { name: "Contact", id: "#contact" },
       ]}
       brandName="Olivia Lallouz"
-      button={{ text: "Schedule your evaluation", href: "#contact" }}
+      button={{ text: "Start Your Evaluation", href: "#contact" }}
     />
   </div>
 
@@ -51,7 +51,7 @@ export default function LandingPage() {
       description="Olivia Lallouz • Orofacial Myologist"
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776966178389-c97cn8rw.png"
       imageAlt="Olivia Lallouz"
-      buttons={[{ text: "Schedule your evaluation", href: "#contact" }]}
+      buttons={[{ text: "Start Your Evaluation", href: "#contact" }]}
       buttonClassName="bg-primary text-primary-foreground font-bold"
     />
   </div>
