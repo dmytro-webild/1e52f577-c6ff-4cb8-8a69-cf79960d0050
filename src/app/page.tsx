@@ -7,7 +7,7 @@ import ContactText from '@/components/sections/contact/ContactText';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import FeatureCardTwentyOne from '@/components/sections/feature/FeatureCardTwentyOne';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
-import HeroSplitDoubleCarousel from '@/components/sections/hero/HeroSplitDoubleCarousel';
+import HeroBillboard from '@/components/sections/hero/HeroBillboard';
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
@@ -45,20 +45,13 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroSplitDoubleCarousel
+      <HeroBillboard
       background={{ variant: "plain"}}
       title="Transform Your Bite • Breathe Better • Sleep Deeper"
       description="Optimize your bite, breathing, and sleep through personalized myofunctional therapy designed to reclaim your facial wellness and vitality."
-      leftCarouselItems={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/ai-generated-modern-styled-entryway_23-2150692369.jpg", imageAlt: "Wellness Studio" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/smiling-woman-typing-laptop_23-2148304954.jpg", imageAlt: "Wellness Studio" },
-        { imageSrc: "http://img.b2bpic.net/modern-interior-with-designer-chair-near-full-length-window_1163-3800.jpg", imageAlt: "Wellness Studio" },
-      ]}
-      rightCarouselItems={[
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png?_wi=1", imageAlt: "Olivia Lallouz" },
-      ]}
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776966178389-c97cn8rw.png"
+      imageAlt="Olivia Lallouz"
       buttons={[{ text: "Schedule your evaluation", href: "#contact" }]}
-      avatarText="Join 100+ transformed clients"
     />
   </div>
 
