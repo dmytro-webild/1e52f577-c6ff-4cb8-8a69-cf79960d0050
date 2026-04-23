@@ -75,9 +75,9 @@ export default function LandingPage() {
       title="Benefits of Myofunctional Therapy"
       description="From bite alignment to sleep optimization, my sessions are tailored to your specific facial structure and habits."
       accordionItems={[
-        { id: "1", title: "Wake Up Refreshed", content: "Wake up refreshed by eliminating sleep-disrupting mouth breathing through optimized airway function." },
-        { id: "2", title: "Restore Jaw Comfort", content: "Restore proper jaw positioning and eliminate tension through specialized myofunctional techniques that target the root cause of grinding." },
-        { id: "3", title: "Breathe With Ease", content: "Transform your daily breathing habits by reinforcing nasal breathing to support your long-term wellness and vitality." },
+        { id: "1", title: "Eliminate Sleep-Disrupting Mouth Breathing", content: "Wake up refreshed by eliminating sleep-disrupting mouth breathing through optimized airway function." },
+        { id: "2", title: "Resolve Chronic Jaw Tension", content: "Restore proper jaw positioning and eliminate tension through specialized myofunctional techniques that target the root cause of grinding." },
+        { id: "3", title: "Optimize Daily Breathing Efficiency", content: "Transform your daily breathing habits by reinforcing nasal breathing to support your long-term wellness and vitality." },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/full-shot-woman-sitting-with-closed-eyes_23-2148897916.jpg"
       mediaAnimation="blur-reveal"
