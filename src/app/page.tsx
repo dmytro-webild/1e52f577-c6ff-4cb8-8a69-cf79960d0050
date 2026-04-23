@@ -53,7 +53,7 @@ export default function LandingPage() {
       leftCarouselItems={[
         { imageSrc: "http://img.b2bpic.net/free-photo/ai-generated-modern-styled-entryway_23-2150692369.jpg", imageAlt: "Wellness Studio" },
         { imageSrc: "http://img.b2bpic.net/free-photo/smiling-woman-typing-laptop_23-2148304954.jpg", imageAlt: "Wellness Studio" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/modern-interior-with-designer-chair-near-full-length-window_1163-3800.jpg", imageAlt: "Wellness Studio" },
+        { imageSrc: "http://img.b2bpic.net/modern-interior-with-designer-chair-near-full-length-window_1163-3800.jpg", imageAlt: "Wellness Studio" },
         { imageSrc: "http://img.b2bpic.net/free-photo/serene-minimalist-poolside-retreat-meditation-space_23-2151935111.jpg", imageAlt: "Wellness Studio" },
         { imageSrc: "http://img.b2bpic.net/free-photo/minimal-amazing-interior-design_23-2150534500.jpg", imageAlt: "Wellness Studio" },
         { imageSrc: "http://img.b2bpic.net/free-photo/serene-minimalist-spa-pool-meditation-space_23-2151935126.jpg", imageAlt: "Wellness Studio" },
@@ -176,7 +176,7 @@ export default function LandingPage() {
         { id: "q3", title: "Who benefits from this therapy?", content: "You can expect lasting relief from chronic jaw tension and improved sleep quality; anyone dealing with bite issues, jaw tension, mouth breathing, or sleep disturbances can benefit significantly." },
         { id: "q4", title: "How long until I see results?", content: "Progress is personal. We will discuss your specific goals and create a personalized plan during your first consultation to ensure you see steady, sustainable results." },
       ]}
-      title="Common Questions"
+      title="How My Therapy Works"
       description="Find answers to help you start your journey."
       faqsAnimation="slide-up"
     />
