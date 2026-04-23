@@ -72,7 +72,7 @@ export default function LandingPage() {
   <div id="features" data-section="features">
       <FeatureCardTwentyOne
       useInvertedBackground={false}
-      title="Comprehensive Therapy & Care"
+      title="Benefits of Myofunctional Therapy"
       description="From bite alignment to sleep optimization, my sessions are tailored to your specific facial structure and habits."
       accordionItems={[
         { id: "1", title: "Wake Up Refreshed", content: "Wake up refreshed by eliminating sleep-disrupting mouth breathing through optimized airway function." },
