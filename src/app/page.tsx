@@ -61,7 +61,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Olivia Lallouz, MS, CCC-SLP | Qualified Orofacial Myologist | PhD Candidate"
       metrics={[
-        { label: "Professional Status", value: "Certified SLP & QOM", icon: Sparkles },
+        { label: "Board Certified SLP/QOM", value: "Board Certified SLP/QOM ", icon: Sparkles },
         { label: "Focus", value: "Neurorehabilitation", icon: Wind },
         { label: "Approach", value: "Evidence-Based", icon: Moon },
       ]}
@@ -126,8 +126,8 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       testimonials={[
-        { id: "1", name: "Matthew L.", role: "Client", testimonial: "Olivia has been the light I have been looking for... I have been doing myofunctional therapy with Olivia and it has been nothing short of the most ideal experience.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png?_wi=2" },
-        { id: "2", name: "Max M.", role: "Client", testimonial: "Olivia and her team have been amazing. From the start, they've been incredibly kind, professional, and genuinely invested in helping.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png?_wi=3" },
+        { id: "1", name: "Matthew L.", role: "Client", testimonial: "Olivia has been the light I have been looking for... I have been doing myofunctional therapy with Olivia and it has been nothing short of the most ideal experience.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/tmp/tongue-posture-1776988110203-51a65b4a.png" },
+        { id: "2", name: "Max M.", role: "Client", testimonial: "Olivia and her team have been amazing. From the start, they've been incredibly kind, professional, and genuinely invested in helping.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776988298056-jjm1ubse.webp" },
       ]}
       title="Client Love"
       description="Read about the transformations experienced by my clients."
