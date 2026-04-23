@@ -95,7 +95,7 @@ export default function LandingPage() {
         { id: "p2", brand: "Course", name: "Better Sleep Blueprint", price: "$195", rating: 5, reviewCount: "18", imageSrc: "http://img.b2bpic.net/free-vector/creative-hand-drawn-tree-yoga-gym-our-services-flyer_742173-1347.jpg" },
         { id: "p3", brand: "Course", name: "Jaw Tension Relief", price: "$120", rating: 4, reviewCount: "32", imageSrc: "http://img.b2bpic.net/free-photo/staistics-business-strategy-planning-research-digital-tablet-concept_53876-26413.jpg" },
       ]}
-      title="Curated Wellness Courses"
+      title="Start Your Transformation"
       description="Access my specialized programs designed to help you build essential habits for lasting change."
     />
   </div>
