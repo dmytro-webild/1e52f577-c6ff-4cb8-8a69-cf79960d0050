@@ -77,7 +77,7 @@ export default function LandingPage() {
       <FeatureCardTwentyOne
       useInvertedBackground={false}
       title="Benefits of Myofunctional Therapy"
-      description="From bite alignment to sleep optimization, my sessions are tailored to your specific facial structure and habits."
+      description="My evidence-based myofunctional therapy protocols are tailored to your specific facial structure and habits, ensuring professional, reliable care for bite alignment and sleep optimization."
       accordionItems={[
         { id: "1", title: "Eliminate Sleep-Disrupting Mouth Breathing", content: "Wake up refreshed by eliminating sleep-disrupting mouth breathing through optimized airway function." },
         { id: "2", title: "Resolve Chronic Jaw Tension", content: "Restore proper jaw positioning and eliminate tension through specialized myofunctional techniques that target the root cause of grinding." },
