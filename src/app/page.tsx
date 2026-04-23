@@ -52,6 +52,7 @@ export default function LandingPage() {
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776966178389-c97cn8rw.png"
       imageAlt="Olivia Lallouz"
       buttons={[{ text: "Schedule your evaluation", href: "#contact" }]}
+      buttonClassName="bg-primary text-primary-foreground font-bold"
     />
   </div>
 
