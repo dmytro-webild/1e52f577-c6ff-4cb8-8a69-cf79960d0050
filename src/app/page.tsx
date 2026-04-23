@@ -59,7 +59,7 @@ export default function LandingPage() {
         { imageSrc: "http://img.b2bpic.net/free-photo/serene-minimalist-spa-pool-meditation-space_23-2151935126.jpg", imageAlt: "Wellness Studio" },
       ]}
       rightCarouselItems={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/thoughtful-businesswoman-looking-through-window_1262-2043.jpg", imageAlt: "Olivia Lallouz" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png", imageAlt: "Olivia Lallouz" },
         { imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-working-as-nurse_23-2151061663.jpg", imageAlt: "Olivia Lallouz" },
         { imageSrc: "http://img.b2bpic.net/free-photo/specialist-leading-meeting-with-medical-team-discuss-treatment-service_482257-106971.jpg", imageAlt: "Olivia Lallouz" },
         { imageSrc: "http://img.b2bpic.net/free-photo/blonde-pretty-doctor-sitting-her-place-office_259150-60614.jpg", imageAlt: "Olivia Lallouz" },
