@@ -173,7 +173,11 @@ export default function LandingPage() {
       faqs={[
         { id: "q1", title: "What is orofacial myology?", content: "A specialized therapy focusing on tongue, jaw, and facial muscle function to enhance breathing, sleep, and overall wellness." },
         { id: "q2", title: "How do online sessions work?", content: "I offer personalized video consultations to guide you through specific exercises and therapy protocols from the comfort of your home." },
-        { id: "q3", title: "Who benefits from this therapy?", content: "You can expect lasting relief from chronic jaw tension and improved sleep quality; anyone dealing with bite issues, jaw tension, mouth breathing, or sleep disturbances can benefit significantly." },
+        { id: "q3", title: "Who benefits from this therapy?", content: "This therapy provides immediate relief for:
+• Chronic jaw tension and grinding
+• Disruptive mouth breathing
+• Poor sleep quality and fatigue
+• Improper tongue posture" },
         { id: "q4", title: "How long until I see results?", content: "Progress is personal. We will discuss your specific goals and create a personalized plan during your first consultation to ensure you see steady, sustainable results." },
       ]}
       title="How My Therapy Works"
