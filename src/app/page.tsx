@@ -12,7 +12,7 @@ import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
-import { Moon, Sparkles, Wind, User } from "lucide-react";
+import { Moon, Sparkles, Wind } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -46,8 +46,7 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroSplitDoubleCarousel
-      background={{
-        variant: "radial-gradient"}}
+      background={{ variant: "radial-gradient"}}
       title="Transform Your Bite • Breathe Better • Sleep Deeper"
       description="Optimize your bite, breathing, and sleep through personalized myofunctional therapy designed to reclaim your facial wellness and vitality."
       leftCarouselItems={[
@@ -66,8 +65,7 @@ export default function LandingPage() {
         { imageSrc: "http://img.b2bpic.net/free-photo/pleased-tilting-head-middle-aged-man-wearing-white-t-shirt-with-tie-crossing-hands-isolated-orange-wall_141793-103462.jpg", imageAlt: "Olivia Lallouz" },
         { imageSrc: "http://img.b2bpic.net/free-photo/happy-beautiful-blonde-woman-wearing-white-shirt-standing-co-working-space-leaning-desk_74855-15151.jpg", imageAlt: "Olivia Lallouz" },
       ]}
-      buttons={[{ text: "Book Your Consultation", href: "#contact" }]
-      }
+      buttons={[{ text: "Book Your Consultation", href: "#contact" }]}
       avatars={[
         { src: "http://img.b2bpic.net/free-photo/confident-businessman_1098-16876.jpg", alt: "Happy Client" },
         { src: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1604.jpg", alt: "Happy Client" },
@@ -173,11 +171,7 @@ export default function LandingPage() {
       faqs={[
         { id: "q1", title: "What is orofacial myology?", content: "A specialized therapy focusing on tongue, jaw, and facial muscle function to enhance breathing, sleep, and overall wellness." },
         { id: "q2", title: "How do online sessions work?", content: "I offer personalized video consultations to guide you through specific exercises and therapy protocols from the comfort of your home." },
-        { id: "q3", title: "Who benefits from this therapy?", content: "This therapy provides immediate relief for:
-• Chronic jaw tension and grinding
-• Disruptive mouth breathing
-• Poor sleep quality and fatigue
-• Improper tongue posture" },
+        { id: "q3", title: "Who benefits from this therapy?", content: "This therapy provides immediate relief for: Chronic jaw tension and grinding, Disruptive mouth breathing, Poor sleep quality and fatigue, Improper tongue posture" },
         { id: "q4", title: "How long until I see results?", content: "Progress is personal. We will discuss your specific goals and create a personalized plan during your first consultation to ensure you see steady, sustainable results." },
       ]}
       title="How My Therapy Works"
@@ -189,8 +183,7 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactText
       useInvertedBackground={false}
-      background={{
-        variant: "sparkles-gradient"}}
+      background={{ variant: "sparkles-gradient"}}
       text="Ready to Transform Your Wellness?"
       buttons={[{ text: "Book Your Consultation", href: "#" }]}
     />
