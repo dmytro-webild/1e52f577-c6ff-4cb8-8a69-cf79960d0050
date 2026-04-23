@@ -12,7 +12,7 @@ import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
-import { Moon, Sparkles, Wind } from "lucide-react";
+import { Moon, Sparkles, Wind, User } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -66,7 +66,8 @@ export default function LandingPage() {
         { imageSrc: "http://img.b2bpic.net/free-photo/pleased-tilting-head-middle-aged-man-wearing-white-t-shirt-with-tie-crossing-hands-isolated-orange-wall_141793-103462.jpg", imageAlt: "Olivia Lallouz" },
         { imageSrc: "http://img.b2bpic.net/free-photo/happy-beautiful-blonde-woman-wearing-white-shirt-standing-co-working-space-leaning-desk_74855-15151.jpg", imageAlt: "Olivia Lallouz" },
       ]}
-      buttons={[{ text: "Book Your Consultation", href: "#contact" }]}
+      buttons={[{ text: "Book Your Consultation", href: "#contact" }]
+      }
       avatars={[
         { src: "http://img.b2bpic.net/free-photo/confident-businessman_1098-16876.jpg", alt: "Happy Client" },
         { src: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1604.jpg", alt: "Happy Client" },
@@ -88,7 +89,7 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <AboutMetric
       useInvertedBackground={false}
-      title="Why Orofacial Myology Matters"
+      title="Meet Your Specialist: Olivia Lallouz"
       metrics={[
         { label: "Bite Alignment", value: "Optimized", icon: Sparkles },
         { label: "Breathing", value: "Optimized", icon: Wind },
@@ -154,11 +155,11 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       testimonials={[
-        { id: "1", name: "Matthew L.", role: "Client", testimonial: "Olivia has been the light I have been looking for... I have been doing myofunctional therapy with Olivia and it has been nothing short of the most ideal experience.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-young-businesswoman-talking-mobile-phone_1262-16443.jpg" },
-        { id: "2", name: "Max M.", role: "Client", testimonial: "Olivia and her team have been amazing. From the start, they've been incredibly kind, professional, and genuinely invested in helping.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-confident-businesswoman-office_329181-19343.jpg" },
-        { id: "3", name: "Kyle S.", role: "Client", testimonial: "Treatment with Olivia has truly been a game changer for me. I came in for orofacial myofunctional therapy and from the very first visit, I felt comfortable.", imageSrc: "http://img.b2bpic.net/free-photo/confident-successful-middle-aged-business-leader_1262-4872.jpg" },
-        { id: "4", name: "Sarah J.", role: "Client", testimonial: "I have already noticed significant improvements in how my tongue rests and how I breathe. It is truly life-changing.", imageSrc: "http://img.b2bpic.net/free-photo/happy-businessman-making-hand-gesture-with-cup-coffee-laptop-desk_23-2147955285.jpg" },
-        { id: "5", name: "Elena R.", role: "Client", testimonial: "So professional, thorough, and supportive throughout the entire process. Highly recommend!", imageSrc: "http://img.b2bpic.net/free-photo/portrait-cheerful-teenage-girl-sitting-cafe_1262-3048.jpg" },
+        { id: "1", name: "Matthew L.", role: "Client", testimonial: "Olivia has been the light I have been looking for... I have been doing myofunctional therapy with Olivia and it has been nothing short of the most ideal experience.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png" },
+        { id: "2", name: "Max M.", role: "Client", testimonial: "Olivia and her team have been amazing. From the start, they've been incredibly kind, professional, and genuinely invested in helping.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png" },
+        { id: "3", name: "Kyle S.", role: "Client", testimonial: "Treatment with Olivia has truly been a game changer for me. I came in for orofacial myofunctional therapy and from the very first visit, I felt comfortable.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png" },
+        { id: "4", name: "Sarah J.", role: "Client", testimonial: "I have already noticed significant improvements in how my tongue rests and how I breathe. It is truly life-changing.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png" },
+        { id: "5", name: "Elena R.", role: "Client", testimonial: "So professional, thorough, and supportive throughout the entire process. Highly recommend!", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png" },
       ]}
       title="Client Love"
       description="Read about the transformations experienced by my clients."
