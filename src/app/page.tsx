@@ -18,14 +18,14 @@ export default function LandingPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="directional-hover"
-        defaultTextAnimation="background-highlight"
-        borderRadius="soft"
+        defaultTextAnimation="reveal-blur"
+        borderRadius="pill"
         contentWidth="compact"
         sizing="mediumSizeLargeTitles"
-        background="grid"
+        background="none"
         cardStyle="outline"
-        primaryButtonStyle="radial-glow"
-        secondaryButtonStyle="solid"
+        primaryButtonStyle="flat"
+        secondaryButtonStyle="glass"
         headingFontWeight="light"
     >
       <ReactLenis root>
@@ -40,47 +40,25 @@ export default function LandingPage() {
         { name: "Contact", id: "#contact" },
       ]}
       brandName="Olivia Lallouz"
-      button={{ text: "Book Consultation", href: "#contact" }}
+      button={{ text: "Schedule your evaluation", href: "#contact" }}
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroSplitDoubleCarousel
-      background={{ variant: "radial-gradient"}}
+      background={{ variant: "plain"}}
       title="Transform Your Bite • Breathe Better • Sleep Deeper"
       description="Optimize your bite, breathing, and sleep through personalized myofunctional therapy designed to reclaim your facial wellness and vitality."
       leftCarouselItems={[
         { imageSrc: "http://img.b2bpic.net/free-photo/ai-generated-modern-styled-entryway_23-2150692369.jpg", imageAlt: "Wellness Studio" },
         { imageSrc: "http://img.b2bpic.net/free-photo/smiling-woman-typing-laptop_23-2148304954.jpg", imageAlt: "Wellness Studio" },
         { imageSrc: "http://img.b2bpic.net/modern-interior-with-designer-chair-near-full-length-window_1163-3800.jpg", imageAlt: "Wellness Studio" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/serene-minimalist-poolside-retreat-meditation-space_23-2151935111.jpg", imageAlt: "Wellness Studio" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/minimal-amazing-interior-design_23-2150534500.jpg", imageAlt: "Wellness Studio" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/serene-minimalist-spa-pool-meditation-space_23-2151935126.jpg", imageAlt: "Wellness Studio" },
       ]}
       rightCarouselItems={[
         { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png?_wi=1", imageAlt: "Olivia Lallouz" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-working-as-nurse_23-2151061663.jpg", imageAlt: "Olivia Lallouz" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/specialist-leading-meeting-with-medical-team-discuss-treatment-service_482257-106971.jpg", imageAlt: "Olivia Lallouz" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/blonde-pretty-doctor-sitting-her-place-office_259150-60614.jpg", imageAlt: "Olivia Lallouz" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/pleased-tilting-head-middle-aged-man-wearing-white-t-shirt-with-tie-crossing-hands-isolated-orange-wall_141793-103462.jpg", imageAlt: "Olivia Lallouz" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/happy-beautiful-blonde-woman-wearing-white-shirt-standing-co-working-space-leaning-desk_74855-15151.jpg", imageAlt: "Olivia Lallouz" },
       ]}
-      buttons={[{ text: "Book Your Consultation", href: "#contact" }]}
-      avatars={[
-        { src: "http://img.b2bpic.net/free-photo/confident-businessman_1098-16876.jpg", alt: "Happy Client" },
-        { src: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1604.jpg", alt: "Happy Client" },
-        { src: "http://img.b2bpic.net/free-photo/young-beautiful-business-woman-gray-background_1303-23146.jpg", alt: "Happy Client" },
-        { src: "http://img.b2bpic.net/free-photo/confident-young-man-shirt-tie-adjusting-his-necktie_93675-135586.jpg", alt: "Happy Client" },
-        { src: "http://img.b2bpic.net/free-photo/portrait-smiling-businessman-sitting-desk-table-business-company-office_482257-16773.jpg", alt: "Happy Client" },
-      ]}
+      buttons={[{ text: "Schedule your evaluation", href: "#contact" }]}
       avatarText="Join 100+ transformed clients"
-      marqueeItems={[
-        { type: "text", text: "Bite Alignment" },
-        { type: "text", text: "Sleep Quality" },
-        { type: "text", text: "Breathing Wellness" },
-        { type: "text", text: "Facial Structure" },
-        { type: "text", text: "Myofunctional Therapy" },
-      ]}
     />
   </div>
 
@@ -93,7 +71,7 @@ export default function LandingPage() {
         { label: "Breathing", value: "Optimized", icon: Wind },
         { label: "Sleep Quality", value: "Improved", icon: Moon },
       ]}
-      metricsAnimation="slide-up"
+      metricsAnimation="blur-reveal"
     />
   </div>
 
@@ -108,13 +86,13 @@ export default function LandingPage() {
         { id: "3", title: "Breathe With Ease", content: "Transform your daily breathing habits by reinforcing nasal breathing to support your long-term wellness and vitality." },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/full-shot-woman-sitting-with-closed-eyes_23-2148897916.jpg"
-      mediaAnimation="slide-up"
+      mediaAnimation="blur-reveal"
     />
   </div>
 
   <div id="products" data-section="products">
       <ProductCardTwo
-      animationType="slide-up"
+      animationType="blur-reveal"
       textboxLayout="split"
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
@@ -122,9 +100,6 @@ export default function LandingPage() {
         { id: "p1", brand: "Course", name: "Myofunctional Foundation", price: "$150", rating: 5, reviewCount: "24", imageSrc: "http://img.b2bpic.net/free-photo/medic-equipment-desk_23-2148519752.jpg" },
         { id: "p2", brand: "Course", name: "Better Sleep Blueprint", price: "$195", rating: 5, reviewCount: "18", imageSrc: "http://img.b2bpic.net/free-vector/creative-hand-drawn-tree-yoga-gym-our-services-flyer_742173-1347.jpg" },
         { id: "p3", brand: "Course", name: "Jaw Tension Relief", price: "$120", rating: 4, reviewCount: "32", imageSrc: "http://img.b2bpic.net/free-photo/staistics-business-strategy-planning-research-digital-tablet-concept_53876-26413.jpg" },
-        { id: "p4", brand: "Course", name: "Habit Transformation Kit", price: "$250", rating: 5, reviewCount: "45", imageSrc: "http://img.b2bpic.net/free-photo/blue-notebook-with-dumbbells_23-2148531494.jpg" },
-        { id: "p5", brand: "Course", name: "Advanced Orofacial Wellness", price: "$300", rating: 5, reviewCount: "12", imageSrc: "http://img.b2bpic.net/free-photo/pretty-woman-choosing-recipe-from-internet_23-2147809496.jpg" },
-        { id: "p6", brand: "Course", name: "Daily Habit Routine", price: "$85", rating: 4, reviewCount: "60", imageSrc: "http://img.b2bpic.net/free-photo/think-outside-box-concept_53876-133687.jpg" },
       ]}
       title="Curated Wellness Courses"
       description="Access my specialized programs designed to help you build essential habits for lasting change."
@@ -133,7 +108,7 @@ export default function LandingPage() {
 
   <div id="metrics" data-section="metrics">
       <MetricCardTwo
-      animationType="slide-up"
+      animationType="blur-reveal"
       textboxLayout="split"
       gridVariant="uniform-all-items-equal"
       useInvertedBackground={false}
@@ -149,15 +124,12 @@ export default function LandingPage() {
 
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardTwo
-      animationType="slide-up"
+      animationType="blur-reveal"
       textboxLayout="split"
       useInvertedBackground={false}
       testimonials={[
         { id: "1", name: "Matthew L.", role: "Client", testimonial: "Olivia has been the light I have been looking for... I have been doing myofunctional therapy with Olivia and it has been nothing short of the most ideal experience.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png?_wi=2" },
         { id: "2", name: "Max M.", role: "Client", testimonial: "Olivia and her team have been amazing. From the start, they've been incredibly kind, professional, and genuinely invested in helping.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png?_wi=3" },
-        { id: "3", name: "Kyle S.", role: "Client", testimonial: "Treatment with Olivia has truly been a game changer for me. I came in for orofacial myofunctional therapy and from the very first visit, I felt comfortable.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png?_wi=4" },
-        { id: "4", name: "Sarah J.", role: "Client", testimonial: "I have already noticed significant improvements in how my tongue rests and how I breathe. It is truly life-changing.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png?_wi=5" },
-        { id: "5", name: "Elena R.", role: "Client", testimonial: "So professional, thorough, and supportive throughout the entire process. Highly recommend!", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776964335340-auiig8s9.png?_wi=6" },
       ]}
       title="Client Love"
       description="Read about the transformations experienced by my clients."
@@ -171,22 +143,24 @@ export default function LandingPage() {
       faqs={[
         { id: "q1", title: "What is orofacial myology?", content: "A specialized therapy focusing on tongue, jaw, and facial muscle function to enhance breathing, sleep, and overall wellness." },
         { id: "q2", title: "How do online sessions work?", content: "I offer personalized video consultations to guide you through specific exercises and therapy protocols from the comfort of your home." },
-        { id: "q3", title: "Who benefits from this therapy?", content: "This therapy provides immediate relief for: Chronic jaw tension and grinding, Disruptive mouth breathing, Poor sleep quality and fatigue, Improper tongue posture" },
-        { id: "q4", title: "How long until I see results?", content: "Progress is personal. We will discuss your specific goals and create a personalized plan during your first consultation to ensure you see steady, sustainable results." },
       ]}
       title="How My Therapy Works"
       description="Find answers to help you start your journey."
-      faqsAnimation="slide-up"
+      faqsAnimation="blur-reveal"
     />
   </div>
 
   <div id="contact" data-section="contact">
       <ContactText
       useInvertedBackground={false}
-      background={{ variant: "sparkles-gradient"}}
+      background={{ variant: "plain"}}
       text="Ready to Transform Your Wellness?"
-      buttons={[{ text: "Book Your Consultation", href: "#" }]}
+      buttons={[{ text: "Schedule your evaluation", href: "#" }]}
+      className="text-center"
     />
+    <div className="text-center text-sm text-foreground/60 py-4">
+       *Insurance is accepted only in Florida. All international or out-of-state clients are private pay.
+    </div>
   </div>
 
   <div id="footer" data-section="footer">
