@@ -47,8 +47,8 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboard
       background={{ variant: "plain"}}
-      title="Transform Your Bite • Breathe Better • Sleep Deeper"
-      description="Optimize your bite, breathing, and sleep through personalized myofunctional therapy designed to reclaim your facial wellness and vitality."
+      title="Breathe Better. Sleep Deeper. Live Beautifully."
+      description="Olivia Lallouz • Orofacial Myologist"
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776966178389-c97cn8rw.png"
       imageAlt="Olivia Lallouz"
       buttons={[{ text: "Schedule your evaluation", href: "#contact" }]}
