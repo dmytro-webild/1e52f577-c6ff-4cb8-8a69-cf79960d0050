@@ -83,7 +83,7 @@ export default function LandingPage() {
         { id: "2", title: "Resolve Chronic Jaw Tension", content: "Restore proper jaw positioning and eliminate tension through specialized myofunctional techniques that target the root cause of grinding." },
         { id: "3", title: "Optimize Daily Breathing Efficiency", content: "Transform your daily breathing habits by reinforcing nasal breathing to support your long-term wellness and vitality." },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/full-shot-woman-sitting-with-closed-eyes_23-2148897916.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776988556675-epe5pvgv.png"
       mediaAnimation="blur-reveal"
     />
   </div>
