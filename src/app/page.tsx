@@ -10,7 +10,6 @@ import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
 import { Moon, Sparkles, Wind } from "lucide-react";
 
@@ -35,7 +34,6 @@ export default function LandingPage() {
         { name: "Home", id: "#hero" },
         { name: "Bio", id: "#about" },
         { name: "Services", id: "#features" },
-        { name: "Courses", id: "#products" },
         { name: "Reviews", id: "#testimonials" },
         { name: "Contact", id: "#contact" },
       ]}
@@ -89,22 +87,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="products" data-section="products">
-      <ProductCardTwo
-      animationType="blur-reveal"
-      textboxLayout="split"
-      gridVariant="three-columns-all-equal-width"
-      useInvertedBackground={false}
-      products={[
-        { id: "p1", brand: "Course", name: "Master Your Myofunctional Foundation", price: "$150", rating: 5, reviewCount: "24", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/tmp/image-for-orofacial-myology-1776994604596-b1c8339d.png" },
-        { id: "p2", brand: "Course", name: "Transform Your Sleep Quality", price: "$195", rating: 5, reviewCount: "18", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776988151559-ot9g62wc.png" },
-        { id: "p3", brand: "Course", name: "Jaw Tension Relief", price: "$120", rating: 4, reviewCount: "32", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776994305700-7ghgm2og.png" },
-      ]}
-      title="Start Your Transformation"
-      description="Access my specialized programs designed to help you build essential habits for lasting change."
-    />
-  </div>
-
   <div id="metrics" data-section="metrics">
       <MetricCardTwo
       animationType="blur-reveal"
@@ -143,7 +125,8 @@ export default function LandingPage() {
         { id: "q1", title: "What is orofacial myology?", content: "A specialized therapy focusing on tongue, jaw, and facial muscle function to enhance breathing, sleep, and overall wellness." },
         { id: "q2", title: "How do online sessions work?", content: "I offer personalized video consultations to guide you through specific exercises and therapy protocols from the comfort of your home." },
         { id: "q3", title: "How long until I see results?", content: "While individual progress varies, most clients begin to notice subtle improvements in muscle awareness and comfort within the first 3-4 weeks of consistent practice." },
-        { id: "q4", title: "What is the scientific foundation of your therapy?", content: "My approach is grounded in peer-reviewed neurorehabilitation research and orofacial myofunctional principles, integrating objective diagnostic metrics to ensure evidence-based, clinically validated care." }
+        { id: "q4", title: "What is the scientific foundation of your therapy?", content: "My approach is grounded in peer-reviewed neurorehabilitation research and orofacial myofunctional principles, integrating objective diagnostic metrics to ensure evidence-based, clinically validated care." },
+        { id: "q5", title: "What credentials support your practice?", content: "I am a board-certified Speech-Language Pathologist and Qualified Orofacial Myologist (QOM) currently pursuing a PhD in Biomedical Sciences, ensuring that every therapeutic intervention is backed by the latest clinical research and scientific advancements in the field." }
       ]}
       title="How My Therapy Works"
       description="Find answers to help you start your journey."
