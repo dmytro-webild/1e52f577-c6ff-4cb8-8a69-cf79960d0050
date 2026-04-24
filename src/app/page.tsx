@@ -49,7 +49,7 @@ export default function LandingPage() {
       description="Olivia Lallouz • Orofacial Myologist"
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776966178389-c97cn8rw.png"
       imageAlt="Olivia Lallouz"
-      buttons={[{ text: "Book Your Professional Evaluation", onClick: () => { if (window.innerWidth < 768) { window.location.href = "tel:+19544429422"; } else { window.location.href = "mailto:olivia@specializedspch.com"; } } }]}
+      buttons={[{ text: "Book Your Professional Evaluation", href: "#contact" }]}
       buttonClassName="bg-primary text-primary-foreground font-bold"
       mediaAnimation="blur-reveal"
     />
