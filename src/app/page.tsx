@@ -7,7 +7,7 @@ import ContactText from '@/components/sections/contact/ContactText';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import FeatureCardTwentyOne from '@/components/sections/feature/FeatureCardTwentyOne';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
-import HeroBillboard from '@/components/sections/hero/HeroBillboard';
+import HeroSplit from '@/components/sections/hero/HeroSplit';
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
@@ -45,7 +45,7 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroBillboard
+      <HeroSplit
       background={{ variant: "plain"}}
       title="Breathe Better. Sleep Deeper. Live Beautifully."
       description="Olivia Lallouz • Orofacial Myologist"
@@ -53,6 +53,7 @@ export default function LandingPage() {
       imageAlt="Olivia Lallouz"
       buttons={[{ text: "Start Your Evaluation", href: "#contact" }]}
       buttonClassName="bg-primary text-primary-foreground font-bold"
+      mediaAnimation="blur-reveal"
     />
   </div>
 
