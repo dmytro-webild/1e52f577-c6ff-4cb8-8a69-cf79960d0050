@@ -38,7 +38,7 @@ export default function LandingPage() {
         { name: "Contact", id: "#contact" },
       ]}
       brandName="Olivia Lallouz"
-      button={{ text: "Start Your Evaluation", href: "#contact" }}
+      button={{ text: "Start Your Evaluation", onClick: () => { if (window.innerWidth < 768) { window.location.href = "tel:+19544429422"; } else { window.location.href = "mailto:olivia@specializedspch.com"; } } }}
     />
   </div>
 
@@ -49,7 +49,7 @@ export default function LandingPage() {
       description="Olivia Lallouz • Orofacial Myologist"
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776966178389-c97cn8rw.png"
       imageAlt="Olivia Lallouz"
-      buttons={[{ text: "Start Your Evaluation", href: "#contact" }]}
+      buttons={[{ text: "Start Your Evaluation", onClick: () => { if (window.innerWidth < 768) { window.location.href = "tel:+19544429422"; } else { window.location.href = "mailto:olivia@specializedspch.com"; } } }]}
       buttonClassName="bg-primary text-primary-foreground font-bold"
       mediaAnimation="blur-reveal"
     />
@@ -156,7 +156,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{ variant: "plain"}}
       text="Ready to Transform Your Wellness?"
-      buttons={[{ text: "Schedule your evaluation", href: "#" }]}
+      buttons={[{ text: "Schedule your evaluation", onClick: () => { if (window.innerWidth < 768) { window.location.href = "tel:+19544429422"; } else { window.location.href = "mailto:olivia@specializedspch.com"; } } }]}
       className="text-center"
     />
     <div className="max-w-xl mx-auto text-center text-sm text-foreground/80 py-8 space-y-2">
