@@ -145,6 +145,7 @@ export default function LandingPage() {
       ]}
       title="How My Therapy Works"
       description="Find answers to help you start your journey."
+      buttons={[{ text: "Book your consultation", href: "#contact" }]}
       faqsAnimation="blur-reveal"
     />
   </div>
