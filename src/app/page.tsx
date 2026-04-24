@@ -11,7 +11,7 @@ import HeroSplit from '@/components/sections/hero/HeroSplit';
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
-import { Moon, Sparkles, Wind, Podcast } from "lucide-react";
+import { Moon, Sparkles, Wind, Podcast, Smile } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -95,7 +95,8 @@ export default function LandingPage() {
       accordionItems={[
         { id: "1", title: "Eliminate Sleep-Disrupting Mouth Breathing", content: "Wake up refreshed by eliminating sleep-disrupting mouth breathing through optimized airway function." },
         { id: "2", title: "Resolve Chronic Jaw Tension", content: "Restore proper jaw positioning and eliminate tension through specialized myofunctional techniques that target the root cause of grinding." },
-        { id: "3", title: "Optimize Daily Breathing Efficiency", content: "Transform your daily breathing habits by reinforcing nasal breathing to support your long-term wellness and vitality." },
+        { id: "3", title: "Orthodontic Tongue Thrust Correction", content: "Correct persistent tongue thrust patterns to maintain your orthodontic results, ensure an aligned bite, and support long-term dental health." },
+        { id: "4", title: "Optimize Daily Breathing Efficiency", content: "Transform your daily breathing habits by reinforcing nasal breathing to support your long-term wellness and vitality." },
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776988556675-epe5pvgv.png"
       mediaAnimation="blur-reveal"
