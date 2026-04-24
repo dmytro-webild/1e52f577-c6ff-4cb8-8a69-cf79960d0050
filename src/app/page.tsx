@@ -38,7 +38,7 @@ export default function LandingPage() {
         { name: "Contact", id: "#contact" },
       ]}
       brandName="Olivia Lallouz"
-      button={{ text: "Book Your Professional Evaluation", onClick: () => { if (window.innerWidth < 768) { window.location.href = "tel:+19544429422"; } else { window.location.href = "mailto:olivia@specializedspch.com"; } } }}
+      button={{ text: "Book Your Professional Evaluation", onClick: () => { if (window.innerWidth < 768) { window.location.href = "tel:+19544429422"; } else { window.location.href = "mailto:olivia@specializedpspch.com"; } } }}
     />
   </div>
 
@@ -158,8 +158,8 @@ export default function LandingPage() {
       background={{ variant: "plain"}}
       text="Ready to Transform Your Wellness?"
       buttons={[
-        { text: "Schedule your evaluation", onClick: () => { if (window.innerWidth < 768) { window.location.href = "tel:+19544429422"; } else { window.location.href = "mailto:olivia@specializedspch.com"; } } },
-        { text: "Email Us", href: "mailto:olivia@specializedspch.com" }
+        { text: "Schedule your evaluation", onClick: () => { if (window.innerWidth < 768) { window.location.href = "tel:+19544429422"; } else { window.location.href = "mailto:olivia@specializedpspch.com"; } } },
+        { text: "Email Us", href: "mailto:olivia@specializedpspch.com" }
       ]}
       className="text-center"
     />
@@ -167,7 +167,7 @@ export default function LandingPage() {
         <p className="font-semibold">On-site services at Specialized Speech Center</p>
         <p>3335 N University Dr #5, Hollywood, FL 33024</p>
         <p className="flex items-center justify-center gap-2">
-          Phone: (954) 442-9422 | <Mail className="w-4 h-4" /> Email: olivia@specializedspch.com
+          Phone: (954) 442-9422 | <Mail className="w-4 h-4" /> Email: olivia@specializedpspch.com
         </p>
         <p className="pt-2">Zoom telehealth sessions available.</p>
         <p className="pt-4">*Insurance is accepted only in Florida. All international or out-of-state clients are private pay.</p>
