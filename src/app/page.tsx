@@ -67,9 +67,7 @@ export default function LandingPage() {
       metricsAnimation="blur-reveal"
     />
     <div className="max-w-3xl mx-auto py-12 px-6 text-foreground/80 leading-relaxed">
-       <p className="mb-6">I am a board certified speech-language pathologist and qualified orofacial myologist (QOM) currently pursuing a PhD in Biomedical Sciences, with a research focus on neurological functions, disorders, particularly the assessment and progression in conditions such as ALS, ADHD, Sleep disorders, and orofacial myofunctional disorders. My work bridges clinical practice and translational research. </p>
-       <p className="mb-6">With extensive clinical experience across hospitals, outpatient clinics, and interdisciplinary care teams, I specialize in the diagnosis and treatment of speech, language, swallowing, and cognitive impairments resulting from neurological injury, disease, and dysfunction. I bring a strong foundation in evidence-based care, and am skilled in integrating clinical assessment with objective diagnostic tools to support comprehensive, individualized treatment planning. My passion lies at the intersection of neurorehabilitation, orofacial myology, and research innovation. I am dedicated to improving quality of life through both direct patient care and research that informs and elevates clinical standards.</p>
-       <div className="mt-8 p-6 bg-card rounded-2xl flex flex-col items-center text-center gap-4 border border-accent">
+       <div className="mb-12 p-6 bg-card rounded-2xl flex flex-col items-center text-center gap-4 border border-accent">
           <Podcast className="w-10 h-10 text-primary" />
           <h3 className="text-xl font-semibold">Podcast Feature: Dr. Stanley Liu</h3>
           <p className="text-sm leading-relaxed opacity-90">
@@ -84,6 +82,8 @@ export default function LandingPage() {
             Listen on YouTube
           </a>
        </div>
+       <p className="mb-6">I am a board certified speech-language pathologist and qualified orofacial myologist (QOM) currently pursuing a PhD in Biomedical Sciences, with a research focus on neurological functions, disorders, particularly the assessment and progression in conditions such as ALS, ADHD, Sleep disorders, and orofacial myofunctional disorders. My work bridges clinical practice and translational research. </p>
+       <p className="mb-6">With extensive clinical experience across hospitals, outpatient clinics, and interdisciplinary care teams, I specialize in the diagnosis and treatment of speech, language, swallowing, and cognitive impairments resulting from neurological injury, disease, and dysfunction. I bring a strong foundation in evidence-based care, and am skilled in integrating clinical assessment with objective diagnostic tools to support comprehensive, individualized treatment planning. My passion lies at the intersection of neurorehabilitation, orofacial myology, and research innovation. I am dedicated to improving quality of life through both direct patient care and research that informs and elevates clinical standards.</p>
     </div>
   </div>
 
