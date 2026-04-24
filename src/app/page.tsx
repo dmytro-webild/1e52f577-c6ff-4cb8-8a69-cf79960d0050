@@ -143,8 +143,12 @@ export default function LandingPage() {
       buttons={[{ text: "Schedule your evaluation", href: "#" }]}
       className="text-center"
     />
-    <div className="text-center text-sm text-foreground/60 py-4">
-       *Insurance is accepted only in Florida. All international or out-of-state clients are private pay.
+    <div className="max-w-xl mx-auto text-center text-sm text-foreground/80 py-8 space-y-2">
+        <p className="font-semibold">On-site services at Specialized Speech Center</p>
+        <p>3335 N University Dr #5, Hollywood, FL 33024</p>
+        <p>Phone: (954) 442-9422 | Email: olivia@specializedspch.com</p>
+        <p className="pt-2">Zoom telehealth sessions available.</p>
+        <p className="pt-4">*Insurance is accepted only in Florida. All international or out-of-state clients are private pay.</p>
     </div>
   </div>
 
