@@ -142,7 +142,8 @@ export default function LandingPage() {
       faqs={[
         { id: "q1", title: "What is orofacial myology?", content: "A specialized therapy focusing on tongue, jaw, and facial muscle function to enhance breathing, sleep, and overall wellness." },
         { id: "q2", title: "How do online sessions work?", content: "I offer personalized video consultations to guide you through specific exercises and therapy protocols from the comfort of your home." },
-        { id: "q3", title: "How long until I see results?", content: "While individual progress varies, most clients begin to notice subtle improvements in muscle awareness and comfort within the first 3-4 weeks of consistent practice." }
+        { id: "q3", title: "How long until I see results?", content: "While individual progress varies, most clients begin to notice subtle improvements in muscle awareness and comfort within the first 3-4 weeks of consistent practice." },
+        { id: "q4", title: "What is the scientific foundation of your therapy?", content: "My approach is grounded in peer-reviewed neurorehabilitation research and orofacial myofunctional principles, integrating objective diagnostic metrics to ensure evidence-based, clinically validated care." }
       ]}
       title="How My Therapy Works"
       description="Find answers to help you start your journey."
