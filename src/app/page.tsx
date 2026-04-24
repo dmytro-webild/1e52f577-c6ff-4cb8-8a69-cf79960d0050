@@ -38,7 +38,7 @@ export default function LandingPage() {
         { name: "Contact", id: "#contact" },
       ]}
       brandName="Olivia Lallouz"
-      button={{ text: "Start Your Evaluation", onClick: () => { if (window.innerWidth < 768) { window.location.href = "tel:+19544429422"; } else { window.location.href = "mailto:olivia@specializedspch.com"; } } }}
+      button={{ text: "Book Your Professional Evaluation", onClick: () => { if (window.innerWidth < 768) { window.location.href = "tel:+19544429422"; } else { window.location.href = "mailto:olivia@specializedspch.com"; } } }}
     />
   </div>
 
@@ -49,7 +49,7 @@ export default function LandingPage() {
       description="Olivia Lallouz • Orofacial Myologist"
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776966178389-c97cn8rw.png"
       imageAlt="Olivia Lallouz"
-      buttons={[{ text: "Start Your Evaluation", onClick: () => { if (window.innerWidth < 768) { window.location.href = "tel:+19544429422"; } else { window.location.href = "mailto:olivia@specializedspch.com"; } } }]}
+      buttons={[{ text: "Book Your Professional Evaluation", onClick: () => { if (window.innerWidth < 768) { window.location.href = "tel:+19544429422"; } else { window.location.href = "mailto:olivia@specializedspch.com"; } } }]}
       buttonClassName="bg-primary text-primary-foreground font-bold"
       mediaAnimation="blur-reveal"
     />
