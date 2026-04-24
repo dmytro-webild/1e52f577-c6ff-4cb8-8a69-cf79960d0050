@@ -61,15 +61,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Olivia Lallouz, MS, CCC-SLP | Qualified Orofacial Myologist | PhD Candidate"
       metrics={[
-        { label: "Board Certified SLP/QOM", value: "Board Certified SLP/QOM ", icon: Sparkles },
-        { label: "Focus", value: "Neurorehabilitation", icon: Wind },
-        { label: "Approach", value: "Evidence-Based", icon: Moon },
+        { label: "Board Certified SLP/QOM", value: "", icon: Sparkles },
+        { label: "Neurorehabiliation ", value: "", icon: Wind },
+        { label: "Evidence-Based ", value: "", icon: Moon },
       ]}
       metricsAnimation="blur-reveal"
     />
     <div className="max-w-3xl mx-auto py-12 px-6 text-foreground/80 leading-relaxed">
-       <p className="mb-6">I am a certified speech-language pathologist and qualified orofacial myologist (QOM) currently pursuing a PhD in Biomedical Sciences, with a research focus on neurological disorders, particularly the assessment and progression in conditions such as ALS. My work bridges clinical practice and translational research, with the goal of advancing early detection and intervention strategies for neurodegenerative disease.</p>
-       <p className="mb-6">With extensive clinical experience across hospitals, outpatient clinics, and interdisciplinary care teams, I specialize in the diagnosis and treatment of speech, language, swallowing, and cognitive impairments resulting from neurological injury or disease. I bring a strong foundation in evidence-based care, and am skilled in integrating clinical assessment with objective diagnostic tools to support comprehensive, individualized treatment planning. My passion lies at the intersection of neurorehabilitation, orofacial myology, and research innovation. I am dedicated to improving quality of life through both direct patient care and research that informs and elevates clinical standards.</p>
+       <p className="mb-6">I am a board certified speech-language pathologist and qualified orofacial myologist (QOM) currently pursuing a PhD in Biomedical Sciences, with a research focus on neurological functions, disorders, particularly the assessment and progression in conditions such as ALS, ADHD, Sleep disorders, and orofacial myofunctional disorders. My work bridges clinical practice and translational research. </p>
+       <p className="mb-6">With extensive clinical experience across hospitals, outpatient clinics, and interdisciplinary care teams, I specialize in the diagnosis and treatment of speech, language, swallowing, and cognitive impairments resulting from neurological injury, disease, and dysfunction. I bring a strong foundation in evidence-based care, and am skilled in integrating clinical assessment with objective diagnostic tools to support comprehensive, individualized treatment planning. My passion lies at the intersection of neurorehabilitation, orofacial myology, and research innovation. I am dedicated to improving quality of life through both direct patient care and research that informs and elevates clinical standards.</p>
     </div>
   </div>
 
@@ -95,9 +95,9 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", brand: "Course", name: "Master Your Myofunctional Foundation", price: "$150", rating: 5, reviewCount: "24", imageSrc: "http://img.b2bpic.net/free-photo/medic-equipment-desk_23-2148519752.jpg" },
-        { id: "p2", brand: "Course", name: "Transform Your Sleep Quality", price: "$195", rating: 5, reviewCount: "18", imageSrc: "http://img.b2bpic.net/free-vector/creative-hand-drawn-tree-yoga-gym-our-services-flyer_742173-1347.jpg" },
-        { id: "p3", brand: "Course", name: "Jaw Tension Relief", price: "$120", rating: 4, reviewCount: "32", imageSrc: "http://img.b2bpic.net/free-photo/staistics-business-strategy-planning-research-digital-tablet-concept_53876-26413.jpg" },
+        { id: "p1", brand: "Course", name: "Master Your Myofunctional Foundation", price: "$150", rating: 5, reviewCount: "24", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/tmp/image-for-orofacial-myology-1776994604596-b1c8339d.png" },
+        { id: "p2", brand: "Course", name: "Transform Your Sleep Quality", price: "$195", rating: 5, reviewCount: "18", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776988151559-ot9g62wc.png" },
+        { id: "p3", brand: "Course", name: "Jaw Tension Relief", price: "$120", rating: 4, reviewCount: "32", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1776994305700-7ghgm2og.png" },
       ]}
       title="Start Your Transformation"
       description="Access my specialized programs designed to help you build essential habits for lasting change."
